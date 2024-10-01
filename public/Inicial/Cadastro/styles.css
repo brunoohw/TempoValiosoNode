@@ -1,0 +1,22 @@
+.input-box {
+    position: relative;
+}
+
+.input-field {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%; /* Faz com que o input ocupe todo o espaço */
+}
+
+button#toggleSenha {
+    position: absolute;
+    right: 25px; /* Espaço da borda direita */
+    top: 40%; /* Centraliza verticalmente */
+    transform: translateY(-50%); /* Ajusta o alinhamento */
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0; /* Remove o padding para melhor alinhamento */
+    font-size: 16px; /* Ajuste o tamanho do ícone conforme necessário */
+    color: #333; /* Cor do ícone */
+}
